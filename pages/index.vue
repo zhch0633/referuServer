@@ -19,6 +19,23 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  height:10em;
+  margin-top: 0px;
+}
+
+#__nuxt {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+html{
+  width: 100%;
+  height: 100%;
 }
 </style>

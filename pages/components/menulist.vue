@@ -31,11 +31,10 @@
   </mu-list>
 </mobile-tear-sheet>
 </template>
-</template>
 
 <style scoped>
 .mobile-tear-sheet{
-    width:300
+  width : 300
 }
 </style>
 
