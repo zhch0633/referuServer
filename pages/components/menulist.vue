@@ -1,5 +1,5 @@
 <template>
-<mobile-tear-sheet class="mobile-tear-sheet">
+  <div>
   <mu-list>
     <mu-list-item title="Inbox">
       <mu-icon slot="left" value="inbox"/>
@@ -29,7 +29,7 @@
       <mu-icon slot="right" value="info"/>
     </mu-list-item>
   </mu-list>
-</mobile-tear-sheet>
+  </div>
 </template>
 
 <style scoped>

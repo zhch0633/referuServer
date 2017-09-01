@@ -1,6 +1,6 @@
 <template>
 <div id="container">
-  <mu-appbar title="Title" id="titlebar">
+  <mu-appbar title="ReferU 后台" id="titlebar">
     <mu-icon-menu icon="more_vert" slot="right">
       <mu-menu-item title="菜单 1"/>
       <mu-menu-item title="菜单 2"/>

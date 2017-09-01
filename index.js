@@ -17,6 +17,17 @@ if (config.dev) {
 }
 
 app.set('port', (process.env.PORT || 5000));
+
+//fix small problem caused by nuxt 
+app.use( function (req, res, next) {_head = res.setHeader
+  res.setHeader = function(name, value) {
+     if (name.toLowerCase() != "content-length"){
+        _head.apply(res, [name, value])
+     }
+   }
+  next()}
+)
+
 app.use(session({
     secret: 'session secret',
     cookie: {}
